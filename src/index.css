@@ -1,0 +1,41 @@
+body {
+  max-width: 70%;
+  margin: auto;
+}
+
+nav ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav ul * {
+  display: inline-block;
+  padding: 4px;
+  text-decoration: none;
+}
+
+nav ul li {
+  border: 1px solid black;
+}
+
+nav ul li:hover {
+  background-color: aqua;
+}
+
+header, footer {
+  background-color: aqua;
+  clear: both;
+}
+
+aside {
+  float: right;
+
+}
+
+aside li {
+  list-style-type: none;
+}
+
+aside ul {
+  padding: 0;
+}
